@@ -32,8 +32,7 @@ body {
 
 .home-intro {
   display: flex;
-  justify-content: space-between;  /* pushes text left, image right */
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
 }
 
