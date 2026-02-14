@@ -44,6 +44,9 @@ body {
   margin-top: 0;
 }
 
+.intro-image {
+  flex-shrink: 0;
+}
 .intro-image img {
   width: 400px !important;
   height: auto !important;
