@@ -33,12 +33,22 @@ body {
 .home-intro {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .intro-text {
   flex: 1;
 }
+
+.intro-text h1 {
+  margin-top: 0;
+}
+
+.intro-image img {
+  width: 250px;
+  border-radius: 12px;
+}
+
 
 .intro-image img {
   width: 220px;
