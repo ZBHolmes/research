@@ -32,8 +32,9 @@ body {
 
 .home-intro {
   display: flex;
-  align-items: center;
-  gap: 50px;
+  justify-content: space-between;  /* pushes text left, image right */
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .intro-text {
@@ -45,12 +46,7 @@ body {
 }
 
 .intro-image img {
-  width: 250px;
-  border-radius: 12px;
-}
-
-
-.intro-image img {
-  width: 220px;
-  border-radius: 10px;
+  width: 150px;   /* smaller image */
+  height: auto;
+  border-radius: 8px;
 }
