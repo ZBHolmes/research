@@ -46,7 +46,8 @@ body {
 }
 
 .intro-image img {
-  width: 250px;   /* smaller image */
+  width: 220px;
   height: auto;
   border-radius: 8px;
 }
+
