@@ -1,0 +1,29 @@
+/* ===== Global Page Styling ===== */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+/* ===== Navigation Bar ===== */
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;   /* pushes links to the right */
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #555;
+}
