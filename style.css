@@ -12,9 +12,9 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: flex-end;   /* pushes links to the right */
+  justify-content: flex-end;
   gap: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .navbar a {
@@ -26,4 +26,21 @@ body {
 
 .navbar a:hover {
   color: #555;
+}
+
+/* ===== Home Intro Layout ===== */
+
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-image img {
+  width: 220px;
+  border-radius: 10px;
 }
