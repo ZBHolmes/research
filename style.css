@@ -53,4 +53,56 @@ body {
   border-radius: 8px;
 }
 
+/* ===== Projects Grid ===== */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* ===== Carousel Styling ===== */
+
+.carousel {
+  position: relative;
+  margin-top: 15px;
+}
+
+.carousel img {
+  width: 100%;
+  display: none;
+  border-radius: 8px;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.carousel .prev {
+  left: 10px;
+}
+
+.carousel .next {
+  right: 10px;
+}
 
