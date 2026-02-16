@@ -138,12 +138,13 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-.outreach-box img {
-  width: 350px;      /* significantly larger */
-  height: auto;
+..outreach-box img {
+  width: 350px;     /* choose your size */
+  height: auto;     /* preserves aspect ratio */
   border-radius: 8px;
   flex-shrink: 0;
 }
+
 
 
 .outreach-content {
