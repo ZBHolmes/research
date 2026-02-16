@@ -174,17 +174,24 @@ details p {
 
 .social-links {
   display: flex;
-  gap: 25px;
+  gap: 30px;
   margin-top: 20px;
+  align-items: center;
 }
 
 .social-links a {
-  font-size: 40px;   /* controls icon size */
-  color: black;
-  transition: 0.2s ease;
+  font-size: 45px;          /* controls logo size */
+  text-decoration: none;    /* removes underline */
+  transition: transform 0.2s ease;
 }
 
-.social-links a:hover .fa-instagram { color: #E1306C; }
-.social-links a:hover .fa-linkedin { color: #0077B5; }
-.social-links a:hover .fa-researchgate { color: #00CCBB; }
-.social-links a:hover .fa-orcid { color: #A6CE39; }
+/* Brand Colors (Default State) */
+.fa-instagram { color: #E1306C; }
+.fa-linkedin { color: #0077B5; }
+.fa-researchgate { color: #00CCBB; }
+.fa-orcid { color: #A6CE39; }
+
+/* Hover Effect */
+.social-links a:hover {
+  transform: scale(1.15);
+}
