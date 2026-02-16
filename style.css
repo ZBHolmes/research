@@ -180,18 +180,18 @@ details p {
 }
 
 .social-links a {
-  font-size: 45px;          /* controls logo size */
-  text-decoration: none;    /* removes underline */
+  font-size: 45px;
+  text-decoration: none;
   transition: transform 0.2s ease;
 }
 
-/* Brand Colors (Default State) */
-.fa-instagram { color: #E1306C; }
-.fa-linkedin { color: #0077B5; }
-.fa-researchgate { color: #00CCBB; }
-.fa-orcid { color: #A6CE39; }
+/* Force Brand Colors (Always Active) */
+.social-links a .fa-instagram { color: #E1306C; }
+.social-links a .fa-linkedin { color: #0077B5; }
+.social-links a .fa-researchgate { color: #00CCBB; }
+.social-links a .fa-orcid { color: #A6CE39; }
 
-/* Hover Effect */
+/* Hover = Only Grow (No Color Change) */
 .social-links a:hover {
   transform: scale(1.15);
 }
