@@ -131,6 +131,7 @@ body {
 .outreach-box {
   display: flex;
   gap: 20px;
+  align-items: flex-start;  /* ADD THIS */
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 10px;
@@ -138,7 +139,7 @@ body {
 }
 
 .outreach-box img {
-  width: 450px;      /* significantly larger */
+  width: 350px;      /* significantly larger */
   height: auto;
   border-radius: 8px;
   flex-shrink: 0;
