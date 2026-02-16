@@ -192,22 +192,15 @@ details p {
   display: flex;
   gap: 30px;
   margin-top: 20px;
-  margin-left: auto;   /* pushes block to right */
-  width: fit-content;
+  justify-content: flex-end;
 }
 
-
-.social-links {
-  display: flex;
-  gap: 30px;
-  margin-top: 20px;
-  justify-content: flex-end;   /* THIS moves them right */
+.social-links a {
+  font-size: 45px;        /* restore size */
+  text-decoration: none;
+  transition: transform 0.2s ease;
 }
 
-
-.social-links a:hover {
-  transform: scale(1.15);
-}
 
 /* Brand Colors */
 .social-links a .fa-instagram { color: #E1306C; }
