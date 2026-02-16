@@ -184,7 +184,7 @@ details p {
   transition: 0.2s ease;
 }
 
-.social-links a:hover {
-  transform: scale(1.15);
-}
-
+.social-links a:hover .fa-instagram { color: #E1306C; }
+.social-links a:hover .fa-linkedin { color: #0077B5; }
+.social-links a:hover .fa-researchgate { color: #00CCBB; }
+.social-links a:hover .fa-orcid { color: #A6CE39; }
