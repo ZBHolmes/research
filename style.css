@@ -168,15 +168,29 @@ details p {
 
 /* ===== Contact Page ===== */
 
-.contact-links {
+/* ===== Contact Layout ===== */
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 40px;
 }
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Social Icons */
 
 .social-links {
   display: flex;
   gap: 30px;
-  margin-top: 20px;
-  align-items: center;
 }
 
 .social-links a {
@@ -185,13 +199,13 @@ details p {
   transition: transform 0.2s ease;
 }
 
-/* Force Brand Colors (Always Active) */
+.social-links a:hover {
+  transform: scale(1.15);
+}
+
+/* Brand Colors */
 .social-links a .fa-instagram { color: #E1306C; }
 .social-links a .fa-linkedin { color: #0077B5; }
 .social-links a .fa-researchgate { color: #00CCBB; }
 .social-links a .fa-orcid { color: #A6CE39; }
 
-/* Hover = Only Grow (No Color Change) */
-.social-links a:hover {
-  transform: scale(1.15);
-}
