@@ -188,23 +188,28 @@ details p {
 
 .social-links {
   display: flex;
-  gap: 35px;              /* slightly more spacing for larger icons */
+  gap: 40px;              /* more space for bigger icons */
   margin-top: 20px;
   justify-content: flex-end;
 }
 
 .social-links a {
-  font-size: 65px;        /* increased from 45px */
   text-decoration: none;
   transition: transform 0.2s ease;
 }
 
+/* 🔥 SIZE THE ICONS DIRECTLY */
+.social-links i {
+  font-size: 75px;        /* increase this number as needed */
+}
+
+/* Hover effect */
 .social-links a:hover {
   transform: scale(1.15);
 }
 
 /* Brand Colors */
-.social-links a .fa-instagram { color: #E1306C; }
-.social-links a .fa-linkedin { color: #0077B5; }
-.social-links a .fa-researchgate { color: #00CCBB; }
-.social-links a .fa-orcid { color: #A6CE39; }
+.social-links .fa-instagram { color: #E1306C; }
+.social-links .fa-linkedin { color: #0077B5; }
+.social-links .fa-researchgate { color: #00CCBB; }
+.social-links .fa-orcid { color: #A6CE39; }
