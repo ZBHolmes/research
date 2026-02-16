@@ -191,7 +191,11 @@ details p {
 .social-links {
   display: flex;
   gap: 30px;
+  margin-top: 20px;
+  margin-left: auto;   /* pushes block to right */
+  width: fit-content;
 }
+
 
 .social-links {
   display: flex;
