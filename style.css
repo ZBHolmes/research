@@ -193,11 +193,13 @@ details p {
   gap: 30px;
 }
 
-.social-links a {
-  font-size: 45px;
-  text-decoration: none;
-  transition: transform 0.2s ease;
+.social-links {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: flex-end;   /* THIS moves them right */
 }
+
 
 .social-links a:hover {
   transform: scale(1.15);
