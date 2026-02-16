@@ -138,15 +138,18 @@ body {
 }
 
 .outreach-box img {
-  width: 250px;        /* increase width */
-  height: auto;        /* let height grow naturally */
+  width: 350px;      /* significantly larger */
+  height: auto;
   border-radius: 8px;
   flex-shrink: 0;
 }
 
+
 .outreach-content {
   flex: 1;
+  min-width: 0;  /* prevents text from forcing layout shrink */
 }
+
 
 details summary {
   cursor: pointer;
