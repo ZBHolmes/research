@@ -12,7 +12,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;  /* pushes logo left, links right */
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
 }
@@ -22,13 +22,13 @@ body {
   align-items: center;
 }
 
-
-.logo img {
-  height: 40px !important;   /* force size */
+/* 🔥 Nuclear Fix */
+.navbar img {
+  height: 40px !important;
   width: auto !important;
+  max-width: none !important;
   display: block;
 }
-
 
 .nav-links {
   display: flex;
