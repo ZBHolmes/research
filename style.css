@@ -12,19 +12,29 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: flex-end;
-  gap: 25px;
+  justify-content: space-between;  /* pushes logo left, links right */
+  align-items: center;
   margin-bottom: 60px;
 }
 
-.navbar a {
+.logo img {
+  height: 50px;   /* adjust size here */
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 16px;
 }
 
-.navbar a:hover {
+.nav-links a:hover {
   color: #555;
 }
 
