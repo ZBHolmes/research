@@ -157,13 +157,13 @@ body {
 }
 
 .outreach-box img {
-  width: 350px;        /* or whatever size you want */
-  height: auto;
-  object-fit: cover;   /* keeps proportions */
-  align-self: flex-start;  /* THIS prevents stretching */
+  width: 350px;        /* fixed width */
+  height: 250px;       /* fixed height */
+  object-fit: cover;   /* crops instead of stretching */
   border-radius: 8px;
   flex-shrink: 0;
 }
+
 
 
 
